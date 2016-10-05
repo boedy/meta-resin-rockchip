@@ -10,6 +10,7 @@ SRCREV_pn-${PN} = "${AUTOREV}"
 
 S = "${WORKDIR}/git"
 
+PROVIDES += "virtual/bootloader"
 LOADER ?= "RK3188Loader(L)_V2.13.bin"
 
 inherit deploy
